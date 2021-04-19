@@ -5,25 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            color: rgb(243, 241, 241);
+            font-family: Julius Sans One, sans-serif;
+            font-style: bold;
+        }
+        h2{
+            font-size: 25px; 
+            font-style: oblique;
+            font-family: Julius Sans One, sans-serif;
+
+        }
+        body{
+            background-color:#81b29a;
+            font-family: Julius Sans One, sans-serif;
+      }
+        #descricao{
+            background-color: #81b29a;
+            font-size: 20px;
+            color:#fff;
+
+        }
+        ul{
+            font-style: italic;
+            border-top: 10px;
+        }
+        .mais {
+            font-size: 20px;
+            border-top: 10px;
+            padding: 8px 5px;
+        }
+        #link{
+            text-align: center;
+            color: #81b29a;
+            font-style: bold;
+        }
+        #portfolio{
+            text-align:center;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Thaísa Medeiros Almeida</h1>
-    <p><a href="#Quem">Quem sou eu?</a>
+    <p><a href="#sobre">Quem sou eu?</a>
     <p><a href="#habilidades">Habilidades</a>
     <p><a href="#portfolio">Portfólio</a><br>
     <img width="300px" alt="Foto da Thaísa" src="Thaísa.jpg">
-    <h2 id="Quem">Quem sou eu?</h2>
-    <p> Designer brasileira, natural de Volta Redonda/RJ.</p>
+    
+    <h2 id="sobre">Sobre</h2>
+    
+    <p id="descricao"><b>Designer <em>brasileira</em>, natural de <em>Volta Redonda/RJ</em>.</b></p>
+    
     <h2 id="habilidades">Habilidades</h2>
     <ul>
-        <li><em>Pensamento lógico</em></li>
-        <li><b>Olhar Crítico</b></li>
-        <li>Facilidade de aprendizado</li>
-        <li><em>Trabalhos manuais</em></li>
-        <li><b>Trabalho em equipe</b></li>
-        <li>Línguas estrangeiras</li>
+        <li class='mais'>Pensamento lógico</li>
+        <li class='menos'>Olhar Crítico</li>
+        <li class='mais'>Facilidade de aprendizado</li>
+        <li class='menos'>Trabalhos manuais</li>
+        <li class='mais'>Trabalho em equipe</li>
+        <li class='menos'>Línguas estrangeiras</li>
     </ul>
+    
     <h2 id="portfolio">Portfólio</h2>
-    <a href="https://thaisama6.wixsite.com/thaisama" target="_blank">Confira Aqui!</a>
+    <p id="link"><a href="https://thaisama6.wixsite.com/thaisama" target="_blank">Confira Aqui!</a></p>
 </body>
 </html>
