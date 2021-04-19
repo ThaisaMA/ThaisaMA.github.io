@@ -1,38 +1,69 @@
-h1{
-    color: rgb(243, 241, 241);
+body{
+    background-color:#81b29a;
+    font-family: Julius Sans One, sans-serif;
+    color: #fff;
+    font-style: bold;
+}
+.menu{
+    display:inline-block;
+    vertical-align: top;
+    margin:10px 50px;
+    
+}
+.nome{
+    color:#446e5a;
     font-family: Julius Sans One, sans-serif;
     font-style: bold;
     text-align: center;
+    padding: 10px 10px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.foto{
+    float:left;
+    border-radius: 50%;
+    border: 5px solid #446e5a;
+    margin-left: 30px;
+   
+    
 }
 h2{
     font-size: 25px; 
     font-style: oblique;
     font-family: Julius Sans One, sans-serif;
+    background-color: rgb(243, 241, 241);
+    color:#446e5a;    
 }
-body{
-    background-color:#81b29a;
-    font-family: Julius Sans One, sans-serif;
+
+.coluna{
+    display:inline-block;
+    vertical-align: top;
+    margin:10px 50px;
 }
+
 #descricao{
     background-color: #81b29a;
     font-size: 20px;
     color:#fff;
 }
-ul{
+.list{
     font-style: italic;
     border-top: 10px;
+    padding: 10px 30px;
+    margin: 10px 50px;
 }
+
 .mais {
     font-size: 20px;
     border-top: 10px;
     padding: 8px 5px;
 }
+#portfolio{
+    text-align:center;
+}
+    
 #link{
     text-align: center;
     color: #81b29a;
     font-style: bold;
 }
-#portfolio{
-    text-align:center;
-}
-    
