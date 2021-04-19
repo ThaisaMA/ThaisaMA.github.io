@@ -1,0 +1,38 @@
+h1{
+    color: rgb(243, 241, 241);
+    font-family: Julius Sans One, sans-serif;
+    font-style: bold;
+    text-align: center;
+}
+h2{
+    font-size: 25px; 
+    font-style: oblique;
+    font-family: Julius Sans One, sans-serif;
+}
+body{
+    background-color:#81b29a;
+    font-family: Julius Sans One, sans-serif;
+}
+#descricao{
+    background-color: #81b29a;
+    font-size: 20px;
+    color:#fff;
+}
+ul{
+    font-style: italic;
+    border-top: 10px;
+}
+.mais {
+    font-size: 20px;
+    border-top: 10px;
+    padding: 8px 5px;
+}
+#link{
+    text-align: center;
+    color: #81b29a;
+    font-style: bold;
+}
+#portfolio{
+    text-align:center;
+}
+    
